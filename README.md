@@ -1,4 +1,12 @@
+# App Screenshots
+![Screenshot_20241230_001403_NoteApp](https://github.com/user-attachments/assets/f9290010-8bf1-4842-871f-9a6b6d51b843) ![WhatsApp Görsel 2024-12-30 saat 00 48 30_ce69a4b4](https://github.com/user-attachments/assets/fe93c4e7-3ad5-4ffe-813f-1a4b7749caf2)
+![Screenshot_20241230_001334_NoteApp](https://github.com/user-attachments/assets/abff5ab7-4eb0-4aad-8a44-5201eb3fed46) ![Screenshot_20241230_001320_NoteApp](https://github.com/user-attachments/assets/3c90ba26-72f2-4d68-8e67-bf082f215217)
+![Screenshot_20241230_001459_NoteApp](https://github.com/user-attachments/assets/706b31e5-bf49-459b-b362-45243479202c)
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+
 
 # Getting Started
 
