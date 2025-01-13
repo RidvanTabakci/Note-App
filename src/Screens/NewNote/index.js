@@ -15,7 +15,7 @@ const NewNote = ({navigation, route}) => {
   const [title, setTitle] = useState('');
   const [note, setNote] = useState('');
   const [isModalVisible, setModalVisible] = useState(false);
-  const [isDeleteModalVisible, setDeleteModalVisible] = useState(false); // Silme modalı durumu
+  const [isDeleteModalVisible, setDeleteModalVisible] = useState(false); 
 
   useEffect(() => {
     if (route.params?.note) {

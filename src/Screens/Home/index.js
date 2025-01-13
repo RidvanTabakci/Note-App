@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, {useEffect, useState} from 'react';
-import {FlatList, Image, Text, TouchableOpacity, View} from 'react-native';
+import {FlatList, Image, Text, TouchableOpacity, View,SafeAreaView } from 'react-native';
 import {useFocusEffect} from '@react-navigation/native';
 import NoteCard from '../../Components/NoteCard';
 import styles from './styles';
@@ -38,7 +38,7 @@ const Home = ({navigation, route}) => {
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.Header}>
         <TouchableOpacity>
           <Image
@@ -72,7 +72,7 @@ const Home = ({navigation, route}) => {
           source={require('../../Assets/icons/edit.png')}
           style={styles.addNoteIcon}></Image>
       </TouchableOpacity>
-    </View>
+    </SafeAreaView>
   );
 };
 
